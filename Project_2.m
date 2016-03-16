@@ -273,6 +273,7 @@ for iCell = 1:length(batch_data_trackingspikes);
     title('Autocorrelation');
     
     % SAVE FIGURE
+    
     % export_fig() function and associated code from Altman (MATLAB File Exchange)
     cd(batch_path);
     export_fig(sprintf(file_name), '-jpg');
